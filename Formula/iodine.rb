@@ -6,6 +6,8 @@ class Iodine < Formula
   license "ISC"
   head "https://github.com/yarrick/iodine.git", branch: "master"
   depends_on "cmake" => :build
+  
+  uses_from_macos "libzip"
 
   def install
     system "make"
