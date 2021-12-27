@@ -5,6 +5,7 @@ class Iodine < Formula
   sha256 "7281e2301804e48029877bab27134f7c0eb04567da4d21a6fcbaa7265cb5849e"
   license "ISC"
   head "https://github.com/yarrick/iodine.git", branch: "master"
+
   depends_on "cmake" => :build
 
   uses_from_macos "zlib"
