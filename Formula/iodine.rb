@@ -11,7 +11,6 @@ class Iodine < Formula
   uses_from_macos "zlib"
 
   def install
-    system "make"
     system "make", "prefix=#{prefix}", "install"
   end
 
