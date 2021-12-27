@@ -1,3 +1,4 @@
+class Iodine < Formula
   desc "Tunnel IPv4 traffic through a DNS server"
   homepage "https://code.kryo.se/iodine"
   url "https://github.com/yarrick/iodine/archive/refs/tags/v0.7.0.tar.gz"
